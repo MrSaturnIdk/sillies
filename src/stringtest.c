@@ -10,7 +10,7 @@ int main(void) {
     size_t amount = 0;
     for (int i = 0; ntptr[i] != '\0'; ++i) {
         printf("%c", ntptr[i]);
-        amount = i + 1;
+        ++amount;
     }
     printf("\nAmount of times to find '\\0': %zu\n", amount);
 
